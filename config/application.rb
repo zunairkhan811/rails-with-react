@@ -14,7 +14,18 @@ module RailsWithReact
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins 'http://127.0.0.1:3000', 'http://localhost:3000'
+        resource '/api/v1/*',
+          headers: :any,
+          methods: [:get, :post, :put, :patch, :delete, :options, :head],
+          credentials: true
+      end
+    end
     config.autoload_lib(ignore: %w(assets tasks))
+
+
 
     # Configuration for the application, engines, and railties goes here.
     #
