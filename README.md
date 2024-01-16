@@ -1,9 +1,8 @@
 <div align= 'center'>
 <a name="readme-top"></a>
 
-  <h3><b>**Budget App**</b></h3>
-  
-  ![GitHub Logo](https://github.com/zunairkhan811/budget-app/blob/development/app/assets/images/budgetapplogo.png?raw=true)
+  <h3><b>**Rails-with-React**</b></h3>
+
 
 </div>
 
@@ -27,14 +26,10 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Budget App] <a name="budget-a[[]]"></a>
+# 📖 [Rails-with-React] <a name="Rails-with-React"></a>
 
 
-**[Budget App]** is based on Ruby Language and Rails framework.
-
-### Project Video Link: <a href="https://www.loom.com/share/80df6205ab344ab9981ed2f0c38d16d7?sid=9c357b74-fc78-4b98-9daf-8d0954203fc2" name="project-video">Click Here</a>
-
-### Deployed Link: <a href="https://budget-app-1wmp.onrender.com/" name="live-link">Click Here</a>
+**[Rails-with-React]** is based on Ruby on Rails backend and React as framework.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,6 +39,13 @@
   <summary>Client</summary>
   <ul>
     <li><a href=#>Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href=#>React</a></li>
   </ul>
 </details>
 
@@ -63,13 +65,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[A user can create list of restaurants]**
-- **[A user can add food items that in which restaurant he ate that food]**
-- **[A user can keep record of how much money he has spent on food items]**
-- **[Devise is used for Authentication]**
-- **[CanCanCan is used for Authorization]**
-- **[Tests have been made using capybara and rspec]**
-- **[Postgresql is used]**
+- **[Understand learning of combining react with rails]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,16 +74,16 @@
 ### Prerequisites
 
 In order to run this project you need:
-<ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby and Ruby on Rails</a></li>
-  </ul>
+
+    bundle install
+    npm install
   
 ### Setup
 
 Clone this repository to your desired folder:
 
-    cd budget app
-    git clone https://github.com/zunairkhan811/budget-app.git
+    cd rails-with-react
+    git clone https://github.com/zunairkhan811/rails-with-react.git
 
 
 ### Install
@@ -100,7 +96,7 @@ Install this project with:
 
 To run the project, execute the following command:
 
-    rail s
+    ./bin/dev
 
 ### Run tests
 
@@ -108,7 +104,7 @@ To run the project, execute the following command:
 
 Run: 
 
-    rspec spec
+    Not Available
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -138,7 +134,7 @@ Run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [repo](https://github.com/zunairkhan811/budget-app/issues) 
+Feel free to check the [repo](https://github.com/zunairkhan811/rails-with-react/issues) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
